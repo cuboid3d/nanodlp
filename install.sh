@@ -1,7 +1,8 @@
 #!/bin/sh -e
 #install touch for nanodlp release
+mkdir /home/pi/nextion;
 cd ./touch/download;
-tar pi2_3.tar.gz -C /home/pi/nextion -xz
+tar -xf pi2_3.tar.gz -C /home/pi/nextion
 
 # Install nodejs
 VERSION=v6.4.0;
@@ -35,3 +36,10 @@ sudo ln -s /opt/nodejs/bin/npm /usr/local/bin/npm;
 
 sudo sed -i.bak "1i#\!/bin/sh \-e\nnode /home/pi/nextion/bin/index.js 2> /home/pi/nextion/errorOutput.log > /home/pi/nextion/output.log &" /etc/rc.local
 
+
+# change pi config file to enable ttyAMA0
+cd ../../pi;
+sudo cp * / -rvf
+
+# raspi-config
+sudo raspi-config
