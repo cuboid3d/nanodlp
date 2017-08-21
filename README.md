@@ -9,6 +9,7 @@ Download this repo, run the install.sh, then reboot, it is done.
 Also the re-layouted hmi for other size of nextion screen, you can use the Screen.tft file to
 
 update the fw of nextion screen.
+
 ----------------------
 Download this repo?
 ----------------------
