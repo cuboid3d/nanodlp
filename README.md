@@ -11,7 +11,7 @@ Also the re-layouted hmi for other size of nextion screen, you can use the Scree
 update the fw of nextion screen.
 
 ----------------------
-Download this repo?
+Download this repo
 ----------------------
 sudo apt-get update
 
@@ -23,7 +23,7 @@ git clone https://github.com/cuboid3d/nanodlp.git
 
 
 ------------------------
-run the install script
+Run the install script
 ------------------------
 cd nanodlp
 
