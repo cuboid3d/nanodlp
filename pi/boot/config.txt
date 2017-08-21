@@ -1,0 +1,25 @@
+# CAMERA SETTINGS ( 1 = ON, 0 = OFF)
+#start_x=1
+disable_camera_led=1
+
+# DISPLAY SETTINGS
+display_rotate=0x10000
+hdmi_force_hotplug=1
+hdmi_timings=1440 0 50 10 35 2560 0 4 2 2 0 0 0 50 0 198000000 0
+hdmi_group=2
+hdmi_mode=87
+hdmi_pixel_freq_limit=500000000
+hvs_priority=0x32ff
+max_framebuffer_width=1440
+max_framebuffer_height=2560
+framebuffer_width=1440
+framebuffer_height=2560
+framebuffer_depth=24
+framebuffer_ignore_alpha=1
+config_hdmi_boost=4
+gpu_mem=192
+
+#dtoverlay=pi3-miniuart-bt-overlay
+dtoverlay=pi3-miniuart-bt
+force_turbo=1
+enable_uart=1
