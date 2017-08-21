@@ -14,6 +14,8 @@ git clone https://github.com/cuboid3d/nanodlp.git
 run the install script
 
 cd nanodlp
+
 chmod +x install.sh
+
 sudo ./install.sh
 
