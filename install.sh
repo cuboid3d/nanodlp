@@ -38,8 +38,13 @@ sudo sed -i.bak "1i#\!/bin/sh \-e\nnode /home/pi/nextion/bin/index.js 2> /home/p
 
 
 # change pi config file to enable ttyAMA0
+# backup
+sudo cp /boot/config.txt /boot/config.txt.bak
+sudo cp /boot/cmdline.txt /boot/cmdline.txt.bak
+sudo cp /lib/systemd/system/hciuart.service /lib/systemd/system/hciuart.service.bak
+
 cd ../../pi;
 sudo cp * / -rvf
 
-# raspi-config
+# raspi-config : close the serial console then reboot
 sudo raspi-config
