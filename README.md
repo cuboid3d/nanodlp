@@ -1,14 +1,19 @@
 touch for nanodlp install script
 
-== install git
-#sudo apt-get update
-#sudo apt-get install git
+install git
 
-== clone the cuboid nanodlp rep
-#git clone https://github.com/cuboid3d/nanodlp.git
+sudo apt-get update
 
-== run the install script
-#cd nanodlp
-#chmod +x install.sh
-#sudo ./install.sh
+sudo apt-get install git
+
+clone the cuboid nanodlp rep
+
+git clone https://github.com/cuboid3d/nanodlp.git
+
+
+run the install script
+
+cd nanodlp
+chmod +x install.sh
+sudo ./install.sh
 
