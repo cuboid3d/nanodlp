@@ -32,6 +32,3 @@ sudo ./install.sh
 
 Close the serial consol in the last step of "raspi-config", then reboot.
 
-# Cuboid Z1
-
-https://www.facebook.com/groups/1370274296374609
