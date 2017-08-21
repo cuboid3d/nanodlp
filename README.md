@@ -11,8 +11,8 @@ Also the re-layouted hmi for other size of nextion screen, you can use the Scree
 update the fw of nextion screen.
 
 ----------------------
-Download this repo
-----------------------
+# Download this repo
+
 sudo apt-get update
 
 sudo apt-get install git
@@ -22,9 +22,8 @@ clone the cuboid nanodlp rep
 git clone https://github.com/cuboid3d/nanodlp.git
 
 
-------------------------
-Run the install script
-------------------------
+# Run the install script
+
 cd nanodlp
 
 chmod +x install.sh
@@ -33,6 +32,6 @@ sudo ./install.sh
 
 Close the serial consol in the last step of "raspi-config", then reboot.
 
-Cuboid Z1:
+# Cuboid Z1
 
 https://www.facebook.com/groups/1370274296374609
