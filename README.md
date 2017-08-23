@@ -13,14 +13,24 @@ update the fw of nextion screen.
 ----------------------
 # Download this repo
 
+A. use git to clone the repo, long time download and install
+
 sudo apt-get update
 
 sudo apt-get install git
 
-clone the cuboid nanodlp rep
+cd /home/pi
 
 git clone https://github.com/cuboid3d/nanodlp.git
 
+B. just download the zip from github, suggest you to use this method.
+
+ wget https://github.com/cuboid3d/nanodlp/archive/master.zip
+ 
+ unzip master.zip
+ 
+ mv nanodlp-master nanodlp
+ 
 
 # Run the install script
 
