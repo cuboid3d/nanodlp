@@ -17,7 +17,7 @@ sudo apt-get update
 
 sudo apt-get install git
 
-clone the cuboid nanodlp rep
+cd /home/pi
 
 git clone https://github.com/cuboid3d/nanodlp.git
 
