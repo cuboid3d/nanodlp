@@ -42,3 +42,5 @@ sudo ./install.sh
 
 Close the serial consol in the last step of "raspi-config", then reboot.
 
+Make sure you have expand the file system size using the raspi-config or nanodlp, before run the command above..
+
