@@ -44,3 +44,8 @@ Close the serial consol in the last step of "raspi-config", then reboot.
 
 Make sure you have expand the file system size using the raspi-config or nanodlp, before run the command above..
 
+# Cuboid Z1
+
+Facebook Discussion Group for Cuboid Z1： 
+
+https://www.facebook.com/groups/1370274296374609
