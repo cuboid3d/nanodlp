@@ -46,6 +46,6 @@ Make sure you have expand the file system size using the raspi-config or nanodlp
 
 # Cuboid Z1
 
-Facebook Discussion Group for Cuboid Z1： 
+Facebook Discussion Group for Cuboid Z1 3D Printer： 
 
 https://www.facebook.com/groups/1370274296374609
